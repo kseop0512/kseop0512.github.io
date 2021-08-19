@@ -4,7 +4,66 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>task</title>
+    <title>ToDo</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Titillium+Web:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- style -->
+    <link rel="stylesheet" href="static/css/reset.css" />
+    <!-- <link rel="stylesheet" href="static/css/normalize.css" /> -->
+    <link rel="stylesheet" href="static/css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div id="wrap" class="main">
+      <header class="main-header">
+        <h1 class="title">OUR TRIPS</h1>
+        <div class="local-info">
+          <p class="clock">00:00</p>
+          <!-- <p class="weather">
+            <span class="weather-icon"></span>
+            <span class="weather-temp"></span>
+          </p> -->
+        </div>
+        <div class="login">
+          <form id="login-form" class="hidden">
+            <div class="input-group">
+              <input
+                type="text"
+                maxlength="15"
+                placeholder="What is your name?"
+                class="input-login"
+                required
+              />
+              <input type="submit" class="input-login-submit" value="Log in" />
+            </div>
+          </form>
+          <h3 class="login-result hidden"></h3>
+        </div>
+      </header>
+      <main>
+        <section class="calendar"></section>
+        <section class="container">
+          <article class="thumbnail" onclick="location.href='planner.html'">
+            <div
+              class="bg"
+              style="
+                background: transparent url('static/images/0.jpg') center center /
+                  cover no-repeat;
+              "
+            ></div>
+            <p class="title">JEJU - 31 AUG/3 SEP</p>
+          </article>
+        </section>
+      </main>
+    </div>
+    <script src="static/js/clock.js"></script>
+    <script src="static/js/greetings.js"></script>
+    <!-- <script src="static/js/weather.js"></script> -->
+  </body>
 </html>

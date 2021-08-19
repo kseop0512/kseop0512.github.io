@@ -1,1 +1,134 @@
-@charset "utf-8";
+html,
+body {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  font-family: 'Titillium Web', 'Noto Sans KR', sans-serif;
+  /* font-family:  sans-serif; */
+  font-size: 14px;
+}
+.hidden {
+  display: none;
+}
+#wrap {
+  width: 100%;
+  height: 100%;
+  min-width: 320px;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+header {
+  position: relative;
+
+  box-sizing: border-box;
+  padding: 50px 30px;
+}
+
+header .title {
+  width: 65%;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.input-group {
+  width: 100%;
+  display: flex;
+}
+
+header .title ~ .login {
+  margin-top: 15px;
+}
+
+.login .input-login {
+  display: block;
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  background: transparent;
+  border-width: 0 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.login .input-login + .input-login-submit {
+  display: block;
+  margin-left: 10px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  box-shadow: none;
+  padding: 0;
+  min-width: 60px;
+}
+.login .login-result {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+header .local-info {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  color: #fff;
+}
+.local-info .clock {
+  font-size: 20px;
+}
+
+/* main */
+
+.main-header {
+  background: #0b0b0b;
+}
+
+.main-header .title {
+  color: #fff;
+}
+.main-header .login {
+  width: 80%;
+  min-width: 250px;
+}
+.thumbnail {
+  border-bottom: 1px solid #bbb;
+}
+.thumbnail .bg {
+  width: 100%;
+  height: 40vw;
+  max-height: 310px;
+}
+.thumbnail .title {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* detail */
+
+.header {
+  background: #bac9c0;
+  border-bottom: 1px solid #0b0b0b;
+}
+.header .title {
+  color: #0b0b0b;
+}
+.header .local-info {
+  color: #0b0b0b;
+}
+.weather {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.header .clock {
+  text-align: right;
+}
+.header .weather-city {
+  display: block;
+  text-align: right;
+}

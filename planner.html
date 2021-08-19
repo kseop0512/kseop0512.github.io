@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Titillium+Web:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- style -->
+    <link rel="stylesheet" href="static/css/reset.css" />
+    <!-- <link rel="stylesheet" href="static/css/normalize.css" /> -->
+    <link rel="stylesheet" href="static/css/style.css" />
+  </head>
+  <body style="background: #bac9c0">
+    <div id="wrap" class="">
+      <header class="header">
+        <h1 class="title">OUR TRIP PLAN</h1>
+        <div class="local-info">
+          <p class="clock">00:00</p>
+          <span class="weather-city"></span>
+          <p class="weather">
+            <span class="weather-icon"></span>
+            <span class="weather-temp"></span>
+          </p>
+        </div>
+      </header>
+      <main>
+        <section class="container"></section>
+      </main>
+    </div>
+    <script src="static/js/clock.js"></script>
+    <script src="static/js/weather.js"></script>
+  </body>
+</html>
