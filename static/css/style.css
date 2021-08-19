@@ -125,6 +125,12 @@ header .local-info {
   flex-wrap: wrap;
   align-items: center;
 }
+.weather .weather-icon {
+  width: 50px;
+}
+.weather .weather-icon img {
+  width: 100%;
+}
 .header .clock {
   text-align: right;
 }

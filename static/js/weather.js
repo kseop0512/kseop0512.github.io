@@ -18,7 +18,7 @@ function openWeatherAPI(lat, lon) {
       weather.innerText = `${Math.floor(data.main.temp)}℃`;
 
       const iconImg = document.createElement('img');
-      iconImg.src = `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
+      iconImg.src = `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
 
       weatherIcon.appendChild(iconImg);
     })
