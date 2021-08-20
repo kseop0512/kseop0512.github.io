@@ -173,6 +173,7 @@ button,
   display: none;
 }
 
-input:focus {
+input:focus,
+button:focus {
   outline: 0;
 }
