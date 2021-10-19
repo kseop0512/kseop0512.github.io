@@ -121,6 +121,7 @@ header .local-info {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  max-width:100%; 
   box-sizing: border-box;
   background: #fff;
   padding: 10px;
