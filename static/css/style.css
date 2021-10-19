@@ -129,7 +129,7 @@ header .local-info {
   padding: 10px;
 }
 .input-group--keyword .input-keyword {
-  flex-grow: 1;
+  /* flex-grow: 1; */
   outline: 0;
   border: 0;
   border-bottom: 1px solid #0b0b0b;
