@@ -134,9 +134,8 @@ header .local-info {
   padding: 10px;
 }
 .input-group--keyword .input-keyword {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  width:100px;
+  max-width:100px;
   outline: 0;
   border: 0;
   border-bottom: 1px solid #0b0b0b;
