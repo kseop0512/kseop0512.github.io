@@ -134,8 +134,8 @@ header .local-info {
   padding: 10px;
 }
 .input-group--keyword .input-keyword {
-  width:100px;
-  max-width:100px;
+  width:100%;
+  max-width:100%;
   outline: 0;
   border: 0;
   border-bottom: 1px solid #0b0b0b;
