@@ -180,6 +180,8 @@ input[type="text"],
 input[type="number"],
 input[type="password"]{
   border-radius:0;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
 }
 
 input:focus,
